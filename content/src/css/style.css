@@ -1,18 +1,32 @@
----
-layout: layouts/base.njk
----
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Eleventy Base Blog v8</title>
-		<meta name="description" content="I am writing about my experiences as a naval navel-gazer.">
-		<link rel="stylesheet" href="./src/css/style.css"/>
-		
-	</head>
-<body>
-<style>
+
+
+:root {
+
+    --clr-dark: #0f172a;
+    --clr-light: #f1f5f9;
+    --clr-accent: #e11d48;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin:0;
+    padding: 0;
+    line-height: 1.6;
+    word-spacing: 1.4px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--clr-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+
+}
 
 .container{
 width: 80%;
@@ -47,6 +61,3 @@ background-color: #fb7185
 .item-3 {
     font-size: 1rem;
 }
-</style>
-</body>
-{{ content | safe }}
