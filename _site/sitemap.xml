@@ -42,12 +42,12 @@
 	</url>
 	
 	<url>
-		<loc>https://example.com/tags/number-2/</loc>
+		<loc>https://example.com/tags/another-tag/</loc>
 		<lastmod>2024-06-08</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/tags/another-tag/</loc>
+		<loc>https://example.com/tags/number-2/</loc>
 		<lastmod>2024-06-08</lastmod>
 	</url>
 	
@@ -64,5 +64,15 @@
 	<url>
 		<loc>https://example.com/about/</loc>
 		<lastmod>2024-06-08</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/myPage/</loc>
+		<lastmod>2024-06-09</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/myPage2/</loc>
+		<lastmod>2024-06-09</lastmod>
 	</url>
 </urlset>
