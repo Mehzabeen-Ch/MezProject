@@ -1,7 +1,7 @@
 ---
 layout: layouts/home.njk
 eleventyNavigation:
-  key: MyPage2
+  key: MyTasks
   order: 3
 ---
 <!DOCTYPE html>
@@ -16,10 +16,11 @@ eleventyNavigation:
     
 <div class="Item item-3"> <h1>BOOTCAMP COURSE BLOG WORK SAMPLES</h1></div>
 
-    <div class="item item-2"> {% image "./me.png" , "A Blog-One Logo", vw10 %} <br><p>Mehzabeen Chikhalia<br> See MyPage Tasks</div>
+    <div class="item item-2"> {% image "./me.png" , "A Blog-One Logo", w10 %} <br><p>Mehzabeen Chikhalia<br> See MyPage Tasks</div>
     
 </div>
 <style>
+
   img {
     float:right;
     width: 40%;
@@ -27,6 +28,7 @@ eleventyNavigation:
     height: auto;
   }
   </style>
+
 {{ content | safe }}
 </body>
 </html>

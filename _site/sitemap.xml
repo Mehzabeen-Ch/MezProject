@@ -62,22 +62,17 @@
 	</url>
 	
 	<url>
-		<loc>https://example.com/about/</loc>
-		<lastmod>2024-06-08</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://example.com/myPage/</loc>
 		<lastmod>2024-06-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/myTasks/</loc>
-		<lastmod>2024-06-09</lastmod>
+		<loc>https://example.com/about/</loc>
+		<lastmod>2024-06-13</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/myPage2/</loc>
+		<loc>https://example.com/myTasks/</loc>
 		<lastmod>2024-06-13</lastmod>
 	</url>
 </urlset>
