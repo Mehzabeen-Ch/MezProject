@@ -294,7 +294,8 @@ h2 + .header-anchor {
 					<li class="nav-item"><a href="/blog/">Archive</a></li>
 					<li class="nav-item"><a href="/about/">About Me</a></li>
 					<li class="nav-item"><a href="/myPage/">MyPage</a></li>
-					<li class="nav-item"><a href="/myPage2/" aria-current="page">MyPage2</a></li>
+					<li class="nav-item"><a href="/myTasks/">MyPage2</a></li>
+					<li class="nav-item"><a href="/myPage2/" aria-current="page">MyTasks</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -307,7 +308,7 @@ h2 + .header-anchor {
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Eleventy Base Blog v8</title>
 		<meta name="description" content="I am writing about my experiences as a naval navel-gazer.">
-		<link rel="stylesheet" href="./src/css/style.css"/>
+		<link rel="stylesheet" href="./content/src/css/style.css"/>
 		
 	</head>
 <body>
@@ -353,17 +354,24 @@ background-color: #fb7185
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./content/src/css/style.css">
     <title>Child boxes in a container (2)</title>
 </head>
 <body>
     
 <div class="Item item-3"> <h1>BOOTCAMP COURSE BLOG WORK SAMPLES</h1></div>
 
-    <div class="item item-2">  <img src="me.png" width=45% > <br>Mehzabeen Chikhalia</div>
-
+    <div class="item item-2"> <picture><source type="image/avif" srcset="/img/CbFHdTScZA-270.avif 270w"><source type="image/webp" srcset="/img/CbFHdTScZA-270.webp 270w"><img alt="A Blog-One Logo" loading="lazy" decoding="async" src="/img/CbFHdTScZA-270.png" width="270" height="219"></picture> <br><p>Mehzabeen Chikhalia<br> See MyPage Tasks</div>
+    
 </div>
-
+<style>
+  img {
+    float:right;
+    width: 40%;
+    max-width: 35%;
+    height: auto;
+  }
+  </style>
 
 </body>
 </html>
@@ -372,6 +380,6 @@ background-color: #fb7185
 
 		<footer></footer>
 
-		<!-- This page `/myPage2/` was built on 2024-06-09T03:32:19.834Z -->
+		<!-- This page `/myPage2/` was built on 2024-06-13T08:18:23.126Z -->
 	</body>
 </html>

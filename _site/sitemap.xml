@@ -42,22 +42,22 @@
 	</url>
 	
 	<url>
-		<loc>https://example.com/tags/second-tag/</loc>
-		<lastmod>2024-06-08</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://example.com/tags/posts-with-two-tags/</loc>
-		<lastmod>2024-06-08</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://example.com/tags/another-tag/</loc>
 		<lastmod>2024-06-08</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://example.com/tags/number-2/</loc>
+		<lastmod>2024-06-08</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/tags/second-tag/</loc>
+		<lastmod>2024-06-08</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/tags/posts-with-two-tags/</loc>
 		<lastmod>2024-06-08</lastmod>
 	</url>
 	
@@ -72,7 +72,12 @@
 	</url>
 	
 	<url>
-		<loc>https://example.com/myPage2/</loc>
+		<loc>https://example.com/myTasks/</loc>
 		<lastmod>2024-06-09</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/myPage2/</loc>
+		<lastmod>2024-06-13</lastmod>
 	</url>
 </urlset>
