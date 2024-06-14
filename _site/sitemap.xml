@@ -27,7 +27,7 @@
 	</url>
 	
 	<url>
-		<loc>https://example.com/tags/number-2/</loc>
+		<loc>https://example.com/tags/another-tag/</loc>
 		<lastmod>2024-06-13</lastmod>
 	</url>
 	
@@ -42,7 +42,7 @@
 	</url>
 	
 	<url>
-		<loc>https://example.com/tags/another-tag/</loc>
+		<loc>https://example.com/tags/number-2/</loc>
 		<lastmod>2024-06-13</lastmod>
 	</url>
 	
