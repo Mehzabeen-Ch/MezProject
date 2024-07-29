@@ -27,17 +27,15 @@ eleventyNavigation:
     <hr>
 
     <ul>
-        <li> Bootstrap -
-        https://getbootstrap.com/
+        <li> <a href = "https://getbootstrap.com/">Bootstrap</a>
+        
         </li>
 
-        <li>Frontend Mentor -  
-        https://www.frontendmentor.io/ 
+        <li> <a href ="https://www.frontendmentor.io/">Frontend Mentor </a>
         </li>
 
-        <li>Front end Cheatsheets - 
-        https://cheatsheets.shecodes.io/
-        </li>
+        <li> <a href="https://cheatsheets.shecodes.io/">Front end Cheatsheets</a>
+         </li>
     </ul>
     <hr>
         <p>
