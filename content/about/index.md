@@ -44,9 +44,12 @@ eleventyNavigation:
         </p>
         
        <!-- <a href = "/">Go to Portfolio Page 1</a>-->
+       <p>
        <a href ="Portfolio_Page1.html">Go to Portfolio Page 1</a>
         </p>  
+       
         <p>
         <!-- <a href = "/">Go to Portfolio Page 2</a>-->
-            <a href ="Portfolio_Page2.html">Go to Portfolio Page 2</a>
+        
+        <a href ="Portfolio_Page2.html">Go to Portfolio Page 2</a>
              </p>
