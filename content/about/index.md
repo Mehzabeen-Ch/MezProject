@@ -24,6 +24,7 @@ eleventyNavigation:
 
         I hope to continue to explore some more by using the following web pages. 
         </p>
+        <br>
     <hr>
 
     <ul>
