@@ -1,7 +1,7 @@
 ---
 layout: layouts/home.njk
 eleventyNavigation:
-  key: MyPage
+  key: My Page 1
   order: 3
 ---
 
@@ -16,3 +16,65 @@ eleventyNavigation:
 
 </div>
 
+
+<style>
+    .container-2{
+    width: 70%;
+    margin:0 auto;
+    border: 2px solid magenta
+}
+</style>
+<body class = "container-2">
+    <main>
+        <h1> The main heading</h1>
+    <section class = "container-2">
+        <h2>The Section heading</h2>
+    <article class="container-2">
+        <h3>Article heading</h3>
+    <h4>Relative units</h4>
+    <ul>
+    <li>absolute units are pixels(px) e.g pt,cm,mm,in etc</li>
+    <li>percentages for widths more often than height. This is relative to their parent.</li>
+    <li>Relative units are relative to font-size (em and rem which are used more often) aswell as relative to the viewport (vw, vh, vmin, vmax)</li>
+    </ul>
+    </article>
+    <article>
+        <h3>Article heading</h3>
+        <h4>Percentages</h4>
+    <ul>
+        <li> start off with 960px total set width. Partition this container into two parts. If the left side is 70% this is 960x0.7=672px. We also have to next think about the padding.</li>
+        <li> Thinking responsively now, we will have the set width not working responsively.So we will change the set width to a percentage.The container will adjust itself now to the screen size automatically. Set the border on and you will be able to visualise this.</li>
+    </ul>
+   
+<p>If you have an image inside this container then we will have to fix this.</p>
+
+    </article>
+    
+    </section>
+    <section class = "container-2">
+        <h2>The Section heading</h2>
+    <article class="container-2">
+        <h3>Article heading</h3>
+    <h4>Relative units</h4>
+    <ul>
+    <li>absolute units are pixels(px) e.g pt,cm,mm,in etc</li>
+    <li>percentages for widths more often than height. This is relative to their parent.</li>
+    <li>Relative units are relative to font-size (em and rem which are used more often) aswell as relative to the viewport (vw, vh, vmin, vmax)</li>
+    </ul>
+    </article>
+    <article>
+        <h3>Article heading</h3>
+        <h4>Percentages</h4>
+    <ul>
+        <li> start off with 960px total set width. Partition this container into two parts. If the left side is 70% this is 960x0.7=672px. We also have to next think about the padding.</li>
+        <li> Thinking responsively now, we will have the set width not working responsively.So we will change the set width to a percentage.The container will adjust itself now to the screen size automatically. Set the border on and you will be able to visualise this.</li>
+    </ul>
+   
+<p>If you have an image inside this container then we will have to fix this.<p>
+
+    </article>
+    
+    </section>
+    </main>
+</body>
+</html>
