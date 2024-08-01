@@ -41,3 +41,13 @@ Capitalize on low hanging fruit to identify a ballpark value added activity to b
 {% image "./Table-Challenge.png", "A Table-Challenge Image" < 20 %}
 
 </section>
+
+## Another Picture
+
+<section class = "container-2">
+
+<p> Below you see a screenshot of my attempt at the table challenge on the web design course.</p>
+
+<img src="/content/blog/Table-Challenge.png" alt="Picture of my table" width="300px" />
+
+</section>
