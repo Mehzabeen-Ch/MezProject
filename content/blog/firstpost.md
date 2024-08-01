@@ -38,7 +38,7 @@ Capitalize on low hanging fruit to identify a ballpark value added activity to b
 
 <p> Below you see a screenshot of my attempt at the table challenge on the web design course.</p>
 
-{% image "/Table-Challenge.png", "A Table-Challenge Image" %}
+{% image "./Table-Challenge.png", "A Table-Challenge Image" %}
 
 </section>
 
@@ -48,6 +48,6 @@ Capitalize on low hanging fruit to identify a ballpark value added activity to b
 
 <p> Below you see a screenshot of my attempt at the table challenge on the web design course.</p>
 
-<img src="Table-Challenge.png" alt="Picture of my table" width="300px" />
+<img src="./Table-Challenge.png" alt="Picture of my table" width="300px" />
 
 </section>
